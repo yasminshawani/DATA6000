@@ -125,6 +125,15 @@ Fuel types by category:
 
 ---
 
+## Large files
+
+Two files exceed GitHub's upload limit and are provided as compressed archives:
+
+- **`PriceDemand`** is split by Australian financial year (1 July – 30 June) into five zip files: `Clean_PriceDemand_FY2021-22.zip` to `Clean_PriceDemand_FY2025-26.zip`. Each contains one CSV with the same columns. Together they hold all 2,519,040 rows.
+- **`Solar`** is provided as `Solar.zip`.
+
+---
+
 ## Licence and attribution
 
 AEMO data is used under AEMO's [copyright permissions](https://www.aemo.com.au/privacy-and-legal-notices/copyright-permissions), which allow use with attribution. Source: © Australian Energy Market Operator (AEMO). Third-party datasets remain subject to their providers' terms. These files were prepared for academic purposes.
