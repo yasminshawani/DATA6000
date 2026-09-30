@@ -27,8 +27,8 @@ These files were exported from the final Power BI data model (via DAX Studio). A
 |---|---|
 | Price and demand (`PriceDemand`, `Daily_PriceDemand`) | AEMO – NEMWeb / MMSDM archive (DISPATCH / TRADING price and demand) |
 | Rooftop solar (`Solar`) | AEMO – NEMWeb / MMSDM archive (rooftop PV actual estimates) |
-| Generation mix (`GenerationMix`) | Daily generation by fuel technology and regional mean temperature |
-| Population (`Population Per Region`) | Quarterly state population estimates |
+| Generation mix (`GenerationMix`) | Open Electricity - Daily generation by fuel technology and regional mean temperature |
+| Population (`Population Per Region`) | ABS - Quarterly state population estimates |
 | Forecasts (`LSTM_Forecast`) | Model output produced for this project |
 
 Raw AEMO data was ingested with Python into a MySQL database, then loaded and transformed in Power BI (Power Query) before export.
